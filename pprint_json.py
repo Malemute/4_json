@@ -14,4 +14,5 @@ def pretty_print_json(data):
 if __name__ == '__main__':
 	filepath = sys.argv[0]
 	parsed_json = load_data(filepath)
-	print pretty_print_json(parsed_json)
+	pretty_printed_json = pretty_print_json(parsed_json)
+	print(pretty_printed_json)
