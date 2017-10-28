@@ -81,7 +81,8 @@ $ python pprint_json.py <path to file>
 ```
 ## WARNING. Limitations
 
-Make sure your console or IDE supports proper encoding. Being simple, this script cannot solve all the possible encoding issues. 
+Make sure your console or IDE supports proper encoding. Being simple, this script cannot solve all the possible encoding issues.
+Feel free to contact me at mamontov@emamontov.com if you want to improve it.
 
 # Project Goals
 
