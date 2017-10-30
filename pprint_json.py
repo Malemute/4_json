@@ -7,12 +7,12 @@ def load_data(filepath):
         return json.load(the_file)
 
 
-def pretty_print_json(json_formatted_stream):
+def format_json_for_human(json_formatted_stream):
     return json.dumps(json_formatted_stream, indent=4, sort_keys=True, ensure_ascii=False)
 
 
 if __name__ == '__main__':
     filepath = sys.argv[1]
     parsed_json = load_data(filepath)
-    human_readable_json = pretty_print_json(parsed_json)
+    human_readable_json = format_json_for_human(parsed_json)
     print(human_readable_json)
